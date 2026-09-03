@@ -2303,7 +2303,7 @@ nav a:hover {
 
         position: absolute;
 
-        left: 0;
+        left: -50;
         bottom: -110;
 
         width: 110%;

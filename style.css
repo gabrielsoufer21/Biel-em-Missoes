@@ -1946,6 +1946,33 @@ nav a:hover {
 }
 
 
+.topico-conteudo3 {
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 58%;
+
+    height: 100%;
+
+    background: #121212;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    padding-left: 7%;
+
+    padding-right: 10%;
+
+    z-index: 2;
+
+}
+
 /* ========================================= */
 /* DIAGONAL */
 /* ========================================= */
@@ -1974,6 +2001,30 @@ nav a:hover {
 
 }
 
+
+.topico-conteudo3::after {
+
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+
+    right: -180px;
+
+    width: 200px;
+
+    height: 100%;
+
+    background: #121212;
+
+    clip-path: polygon(
+        0 0,
+        0 100%,
+        100% 50%
+    );
+
+}
 
 /* ========================================= */
 /* NÚMERO */
@@ -2009,11 +2060,35 @@ nav a:hover {
 }
 
 
+.topico-conteudo3 h2 {
+
+    font-size: clamp(45px, 6vw, 80px);
+
+    line-height: 0.95;
+
+    letter-spacing: -4px;
+
+    margin-bottom: 30px;
+
+}
+
 /* ========================================= */
 /* TEXTO */
 /* ========================================= */
 
 .topico-conteudo p {
+
+    max-width: 450px;
+
+    font-size: 15px;
+
+    line-height: 1.6;
+
+    color: #FAF4E4;
+
+}
+
+.topico-conteudo3 p {
 
     max-width: 450px;
 

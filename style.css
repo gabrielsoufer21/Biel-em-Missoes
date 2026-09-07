@@ -1903,10 +1903,10 @@ nav a:hover {
 	transform: translate(700px, 300);
     
     top: 0;
-    left: 0;
+    left: 200;
 
-    width: 50%;
-    height: 500px;
+    width: 100%;
+    height: 550px;
 
     object-fit: cover;
 
